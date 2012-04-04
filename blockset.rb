@@ -3,5 +3,5 @@ PRJ_ROOT = File.expand_path(File.dirname(__FILE__))
 require "lang/evaluator"
 require "lang/bks_object"
 Blockset::TreeEvaluator.new.eval [
-  [{:val => BKS_NAMESPACE::Object.new}, {:val => :foo, :args => []}]
+  [{:val => BKS_NAMESPACE::Object.new}, {:val => :"printLine:", :args => [[{:val => "Hello world from inside a Blockset parse tree!"}]]}]
 ]
