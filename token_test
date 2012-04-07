@@ -1,0 +1,7 @@
+:foo;
+"bar";
+baz;
+42;
+3.14159;
+self.sayHello;
+printLine: "Foo";
