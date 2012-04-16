@@ -12,9 +12,11 @@ module Blockset
     matches /\d*\.\d+/  => :float,      :convert_with => lambda {|v| Float(v)}
     matches /\d+/       => :int,        :convert_with => lambda {|v| Integer(v)}
     matches /"[^"]*"/m  => :str,        :convert_with => lambda {|v| v[1..-2]}
-    matches /\$\w+/     => :sym,       :convert_with => lambda {|v| v[1..-1].to_sym}
+    matches /\$\w+/     => :sym,        :convert_with => lambda {|v| v[1..-1].to_sym}
     matches /\w[\w:]*/  => :m_chunk,    :convert_with => lambda {|v| v.to_sym}
     matches "."         => :special
     matches ";"         => :special
+    # Now for the keywords (only 1 for now)
+    matches "self"      => :keyw
   }
 end

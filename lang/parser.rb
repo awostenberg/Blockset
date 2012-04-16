@@ -10,7 +10,7 @@ module Blockset
       tokens.each do |tok|
         case tok.type
           when :m_chunk
-            Blockset.halt_wrong_token(tok) unless statement.size > 0
+            Blockset.halt_wrong_token tok unless statement.size > 0
             statement << tok.value
           when :op
             case tok.value

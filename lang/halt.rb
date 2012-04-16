@@ -4,7 +4,7 @@ module Blockset
     exit code
   end
 
-  def halt_wrong_token(tok)
-    puts "Unexpected #{tok.type} (value `#{tok.value}')"
+  def self.halt_wrong_token(tok)
+    halt "Unexpected #{tok.type} (value `#{tok.value}')"
   end
 end

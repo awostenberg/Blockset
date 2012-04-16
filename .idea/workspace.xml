@@ -26,16 +26,7 @@
       <file leaf-file-name="blockset.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blockset.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="32" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lexer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lang/lexer.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="36" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
+            <state line="6" column="5" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -44,7 +35,16 @@
       <file leaf-file-name="parser.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lang/parser.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="548" selection-end="548" vertical-scroll-proportion="0.40948275">
+            <state line="12" column="38" selection-start="348" selection-end="348" vertical-scroll-proportion="0.25862068">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lexer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lang/lexer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="32" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="halt.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lang/halt.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="40" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+            <state line="6" column="7" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,10 +116,10 @@
         <option value="$PROJECT_DIR$/tests/lexer.test" />
         <option value="$PROJECT_DIR$/tests/syntax.test" />
         <option value="$PROJECT_DIR$/tests/parser.rb" />
-        <option value="$PROJECT_DIR$/blockset.rb" />
         <option value="$PROJECT_DIR$/tests/tc_lexer.rb" />
-        <option value="$PROJECT_DIR$/lang/lexer.rb" />
+        <option value="$PROJECT_DIR$/blockset.rb" />
         <option value="$PROJECT_DIR$/lang/halt.rb" />
+        <option value="$PROJECT_DIR$/lang/lexer.rb" />
         <option value="$PROJECT_DIR$/lang/parser.rb" />
       </list>
     </option>
@@ -401,20 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lang/lexer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blockset.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lang/evaluator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" />
@@ -429,14 +415,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lang/halt.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+        <state line="6" column="7" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockset.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/lexer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="32" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lang/parser.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="548" selection-end="548" vertical-scroll-proportion="0.40948275">
+        <state line="12" column="38" selection-start="348" selection-end="348" vertical-scroll-proportion="0.25862068">
           <folding />
         </state>
       </provider>
