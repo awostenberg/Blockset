@@ -3,4 +3,8 @@ module Blockset
     puts msg
     exit code
   end
+
+  def halt_wrong_token(tok)
+    puts "Unexpected #{tok.type} (value `#{tok.value}')"
+  end
 end

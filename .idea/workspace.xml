@@ -32,19 +32,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lexer.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="lexer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lang/lexer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="35" selection-start="841" selection-end="841" vertical-scroll-proportion="0.3448276">
+            <state line="17" column="36" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parser.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="parser.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lang/parser.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+            <state line="19" column="0" selection-start="548" selection-end="548" vertical-scroll-proportion="0.40948275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="halt.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lang/halt.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="40" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -53,7 +62,7 @@
       <file leaf-file-name="tc_lexer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/tc_lexer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="14" selection-start="269" selection-end="277" vertical-scroll-proportion="0.0">
+            <state line="13" column="38" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lang/halt.rb" />
         <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/lang/evaluator.rb" />
         <option value="$PROJECT_DIR$/lang/bks_object.rb" />
@@ -108,10 +116,11 @@
         <option value="$PROJECT_DIR$/tests/lexer.test" />
         <option value="$PROJECT_DIR$/tests/syntax.test" />
         <option value="$PROJECT_DIR$/tests/parser.rb" />
-        <option value="$PROJECT_DIR$/lang/parser.rb" />
         <option value="$PROJECT_DIR$/blockset.rb" />
         <option value="$PROJECT_DIR$/tests/tc_lexer.rb" />
         <option value="$PROJECT_DIR$/lang/lexer.rb" />
+        <option value="$PROJECT_DIR$/lang/halt.rb" />
+        <option value="$PROJECT_DIR$/lang/parser.rb" />
       </list>
     </option>
   </component>
@@ -365,11 +374,6 @@
         <state line="4" column="23" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lang/halt.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lang/bks_object_mixin.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="7" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0" />
@@ -397,9 +401,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lang/evaluator.rb">
+    <entry file="file://$PROJECT_DIR$/lang/lexer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" />
+        <state line="17" column="36" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blockset.rb">
@@ -409,23 +415,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lang/parser.rb">
+    <entry file="file://$PROJECT_DIR$/lang/evaluator.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="28" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/tc_lexer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="269" selection-end="277" vertical-scroll-proportion="0.0">
+        <state line="13" column="38" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lang/lexer.rb">
+    <entry file="file://$PROJECT_DIR$/lang/halt.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="841" selection-end="841" vertical-scroll-proportion="0.3448276">
+        <state line="7" column="40" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/parser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="548" selection-end="548" vertical-scroll-proportion="0.40948275">
           <folding />
         </state>
       </provider>
