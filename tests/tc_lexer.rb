@@ -9,22 +9,22 @@ class TestLexer < Test::Unit::TestCase
     prog = File.read("syntax.test")
     correct = [
       [:hello, :sym],
-      [";", :expr_end],
+      [";", :op],
       [42, :int],
-      [";", :expr_end],
+      [";", :op],
       [12.34, :float],
-      [";", :expr_end],
+      [";", :op],
       [:self, :m_chunk],
-      [".", :op_send_m],
+      [".", :op],
       [:greet, :m_chunk],
-      [";", :expr_end],
+      [";", :op],
       [:self, :m_chunk],
-      [".", :op_send_m],
+      [".", :op],
       [:"log:", :m_chunk],
       ["Foo", :str],
       [:"level:", :m_chunk],
       [:error, :sym],
-      [";", :expr_end],
+      [";", :op],
       [nil, :end]
     ].collect {|args| Lexr::Token.new(*args)}
     result = []
