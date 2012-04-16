@@ -1,6 +1,7 @@
 require "lexr"
 
 module Blockset
+  # Tokenizes strings readable by the parser
   Lexer = Lexr.that {
     ignores /\s+/       => :whitespace
     ignores /--.*/      => :comment     # Comments begin with double-dashes and extend until the end of the line
