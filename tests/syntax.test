@@ -1,5 +1,7 @@
-:hello;
+-- This file should contain VALID BLOCKSET SYNTAX
+
+$hello;
 42;
 12.34;
 self.greet;
-self.log: "Foo" level: :error;
+self.log: "Foo" level: $error;
