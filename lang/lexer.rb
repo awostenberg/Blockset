@@ -14,7 +14,7 @@ module Blockset
     matches /"[^"]*"/m  => :str,        :convert_with => lambda {|v| v[1..-2]}
     matches /\$\w+/     => :sym,       :convert_with => lambda {|v| v[1..-1].to_sym}
     matches /\w[\w:]*/  => :m_chunk,    :convert_with => lambda {|v| v.to_sym}
-    matches "."         => :op
-    matches ";"         => :op
+    matches "."         => :special
+    matches ";"         => :special
   }
 end
