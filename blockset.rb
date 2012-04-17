@@ -4,7 +4,7 @@ require "lang/bks_object"
 require "lang/parser"
 #puts File.read("hello.bks")
 f = File.read("tests/syntax.test")
-puts Blockset::Parser.new.parse(f)
+print Blockset::Parser.new.parse(f)
 #func = BKS_NAMESPACE::Lambda.new [[{:val => BKS_NAMESPACE::Object.new}, {:val => :"printLine:", :args => [[{:val => "Hello world"}]]}]]
 #Blockset::TreeEvaluator.new.eval [
 #  [{:val => func}, {:val => :"call", :args => []}]
