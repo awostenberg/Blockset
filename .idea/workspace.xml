@@ -32,10 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parser.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="parser.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lang/parser.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="9" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+            <state line="19" column="30" selection-start="646" selection-end="646" vertical-scroll-proportion="0.40948275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="syntax.test" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/syntax.test">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="30" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -45,24 +54,6 @@
         <entry file="file://$PROJECT_DIR$/lang/lexer.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="30" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="syntax.test" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/syntax.test">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="99" selection-end="99" vertical-scroll-proportion="0.12931034">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lambda.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lang/lambda.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="34" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -371,11 +362,6 @@
         <state line="21" column="0" selection-start="501" selection-end="501" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lang/lambda.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lang/evaluator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" />
@@ -402,13 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lang/parser.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lang/lexer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="30" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
@@ -416,9 +395,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lang/lambda.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="34" selection-start="212" selection-end="212" vertical-scroll-proportion="0.21551724">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/syntax.test">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="99" selection-end="99" vertical-scroll-proportion="0.12931034">
+        <state line="6" column="30" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/parser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="30" selection-start="646" selection-end="646" vertical-scroll-proportion="0.40948275">
           <folding />
         </state>
       </provider>

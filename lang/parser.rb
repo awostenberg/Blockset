@@ -12,7 +12,7 @@ module Blockset
         case tok.type
           when :m_chunk
             Blockset.halt_wrong_token tok unless statement.size > 0
-            statement << tok.value
+            statement << {:val => tok.value}
           when :special
             case tok.value
               when ";"
@@ -20,7 +20,9 @@ module Blockset
                 statement = []
             end
           else
-            statement << tok.value
+            s = {:val => tok.value, :obj => true}
+            s[:keyw] = true if tok.type == :keyw
+            statement << s
         end
       end
       tree
