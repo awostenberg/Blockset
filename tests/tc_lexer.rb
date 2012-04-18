@@ -20,9 +20,11 @@ class TestLexer < Test::Unit::TestCase
       [";", :special],
       [:self, :m_chunk],
       [".", :special],
-      [:"log:", :m_chunk],
+      [:log, :m_chunk],
+      [:":", :special],
       ["Foo", :str],
-      [:"level:", :m_chunk],
+      [:level, :m_chunk],
+      [:":", :special],
       [:error, :sym],
       [";", :special],
       [nil, :end]
