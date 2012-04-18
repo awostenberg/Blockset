@@ -26,16 +26,16 @@
       <file leaf-file-name="blockset.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blockset.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+            <state line="7" column="131" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parser.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="parser.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lang/parser.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="30" selection-start="646" selection-end="646" vertical-scroll-proportion="0.40948275">
+            <state line="31" column="18" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -44,16 +44,16 @@
       <file leaf-file-name="syntax.test" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/syntax.test">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+            <state line="6" column="34" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lexer.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="lexer.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lang/lexer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="30" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="994" selection-end="994" vertical-scroll-proportion="0.5387931">
               <folding />
             </state>
           </provider>
@@ -87,13 +87,13 @@
         <option value="$PROJECT_DIR$/hello.bks" />
         <option value="$PROJECT_DIR$/token_test" />
         <option value="$PROJECT_DIR$/tests/lexer.test" />
-        <option value="$PROJECT_DIR$/tests/syntax.test" />
         <option value="$PROJECT_DIR$/tests/parser.rb" />
         <option value="$PROJECT_DIR$/tests/tc_lexer.rb" />
         <option value="$PROJECT_DIR$/lang/halt.rb" />
-        <option value="$PROJECT_DIR$/lang/lexer.rb" />
         <option value="$PROJECT_DIR$/blockset.rb" />
         <option value="$PROJECT_DIR$/lang/parser.rb" />
+        <option value="$PROJECT_DIR$/tests/syntax.test" />
+        <option value="$PROJECT_DIR$/lang/lexer.rb" />
       </list>
     </option>
   </component>
@@ -124,7 +124,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,15 +172,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
-    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Ruby.blockset">
     <configuration default="false" name="evaluator" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
@@ -279,7 +279,6 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15453586" sideWeight="0.67005545" order="0" side_tool="false" content_ui="tabs" />
@@ -289,6 +288,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -362,11 +362,6 @@
         <state line="21" column="0" selection-start="501" selection-end="501" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lang/evaluator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/tc_lexer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="38" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
@@ -381,37 +376,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blockset.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/lexer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lang/lambda.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="34" selection-start="212" selection-end="212" vertical-scroll-proportion="0.21551724">
-          <folding />
-        </state>
+        <state line="10" column="34" selection-start="212" selection-end="212" vertical-scroll-proportion="0.21551724" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/evaluator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/syntax.test">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0">
+        <state line="6" column="34" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lang/parser.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="646" selection-end="646" vertical-scroll-proportion="0.40948275">
+        <state line="31" column="18" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blockset.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="131" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lang/lexer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="994" selection-end="994" vertical-scroll-proportion="0.5387931">
           <folding />
         </state>
       </provider>

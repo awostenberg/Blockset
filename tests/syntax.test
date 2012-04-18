@@ -4,4 +4,4 @@ $hello;
 42;
 12.34;
 self.greet;
-self.log: "Foo" level: $error;
+self.log: "Foo" level: $error with;
