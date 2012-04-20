@@ -15,13 +15,19 @@ module Blockset
     # Now for the keywords (only 1 for now)
     matches "self"      => :keyw
 
-    # Other stuff
+    # Object literals
+    # I might include some way to let the programmer define these (without any Ruby) sometime
     matches /\d*\.\d+/  => :float,      :convert_with => lambda {|v| Float(v)}
     matches /\d+/       => :int,        :convert_with => lambda {|v| Integer(v)}
     matches /"[^"]*"/m  => :str,        :convert_with => lambda {|v| v[1..-2]}
     matches /\$\w+/     => :sym,        :convert_with => lambda {|v| v[1..-1].to_sym}
-    matches /\w[\w:]*/  => :m_chunk,    :convert_with => lambda {|v| v.to_sym}
+
+    # Special characters
     matches "."         => :special
     matches ";"         => :special
+    matches ":"         => :special
+
+    # Other stuff
+    matches /\w+/       => :m_chunk,    :convert_with => lambda {|v| v.to_sym}
   }
 end
